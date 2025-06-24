@@ -1,0 +1,26 @@
+{
+  "name": "redis-project",
+  "version": "1.0.0",
+  "description": "Basic Project to learn about redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venom-2/Redis-Project.git"
+  },
+  "author": "Akshat Trivedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venom-2/Redis-Project/issues"
+  },
+  "homepage": "https://github.com/venom-2/Redis-Project#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "redis": "^5.5.6"
+  }
+}
